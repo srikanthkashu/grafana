@@ -1,8 +1,8 @@
-# Run Vagrant Ruby tests on Harness CI
+# Docker Layer Caching with Harness CI
 
-This is a fork of [grafana/grafana](https://github.com/grafana/grafana/). This project can be used to demonstrate [Docker Layer Caching in Harness](https://developer.harness.io/docs/continuous-integration/use-ci/caching-ci-data/docker-layer-caching/) CI pipelines.
+This is a fork of [grafana/grafana](https://github.com/grafana/grafana/). This project can be used to demonstrate [Docker Layer Caching](https://developer.harness.io/docs/continuous-integration/use-ci/caching-ci-data/docker-layer-caching/) in [Harness CI](https://www.harness.io/products/continuous-integration) pipelines.
 
-This repository contains over 5,000 Ruby rspec tests. Follow these steps to experiment with Ruby Test Intelligence in your [Harness](https://www.harness.io/) account.
+This demo will build and push the Grafana Docker image to Docker Hub. The initial pipeline execution will take about seven minutes to build the cache. The second pipeline execution will take about twenty seconds.
 
 ## Setting up this pipeline on Harness CI Hosted Builds
 
@@ -17,7 +17,7 @@ This repository contains over 5,000 Ruby rspec tests. Follow these steps to expe
    
     b. If you are an existing Harness CI user, create a new pipeline to use the cloud option for infrastructure and setup the push trigger.
 
-4. Check the [Docker Layer Caching documentation](https://developer.harness.io/docs/continuous-integration/use-ci/caching-ci-data/docker-layer-caching/) to learn how to enable the feature in your Harness account, 
+4. Check the [Docker Layer Caching documentation](https://developer.harness.io/docs/continuous-integration/use-ci/caching-ci-data/docker-layer-caching/) to learn how to enable the feature in your Harness account.
 
 5. Insert this YAML into your pipeline's `stages` section.
 
