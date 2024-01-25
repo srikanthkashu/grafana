@@ -2,9 +2,9 @@
 
 This is a fork of [grafana/grafana](https://github.com/grafana/grafana/). This project can be used to demonstrate [Docker Layer Caching](https://developer.harness.io/docs/continuous-integration/use-ci/caching-ci-data/docker-layer-caching/) in [Harness CI](https://www.harness.io/products/continuous-integration) pipelines.
 
-This demo will build and push the Grafana Docker image to Docker Hub. The initial pipeline execution will take about seven minutes to build the cache. The second pipeline execution will take about twenty seconds.
+This demo will build and push the Grafana Docker image to Docker Hub. The initial pipeline execution will take about seven minutes to build the cache. The second pipeline execution will take about thirty seconds.
 
-## Setting up this pipeline on Harness CI Hosted Builds
+## Setting up this pipeline on Harness CI Cloud
 
 1. Create a [GitHub Account](https://github.com) or use an existing account
 
