@@ -1,3 +1,9 @@
+Harness CI Docker Layer Caching demo with Grafana
+=======================================
+This is a fork of [grafana/grafana](https://github.com/grafana/grafana/). This project can be used to demonstrate [Docker Layer Caching](https://developer.harness.io/docs/continuous-integration/use-ci/caching-ci-data/docker-layer-caching/) in [Harness CI](https://www.harness.io/products/continuous-integration) pipelines. Please follow the instructions in [.harness/README.md](.harness/README.md) to see the benefits of Docker Layer Caching in Harness.
+
+This video shows what you can expect from this demo:
+
 ![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)
 ![Grafana Logo (Dark)](docs/logo-horizontal-dark.png#gh-dark-mode-only)
 
