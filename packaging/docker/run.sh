@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+# example
+
 PERMISSIONS_OK=0
 
 if [ ! -r "$GF_PATHS_CONFIG" ]; then
