@@ -1,6 +1,7 @@
 #!/bin/bash -e
 
 #trigger build 
+#trigger Build2
 
 PERMISSIONS_OK=0
 
